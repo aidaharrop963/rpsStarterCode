@@ -1,9 +1,16 @@
 // Task 1: Create a function that randomly chooses among 'rock', 'paper', or 'scissors'.
-var generateComputerChoice = function () {
+var generateComputerChoice = function();
+();
+) {
     // Task 1, Step 1: Create an array with three elements ("rock", "paper" and "scissors").
-        
+      var anArray = ["rock","paper","sissors"]  
+      var mathrandom= Math.floor (Math.random()*3);
+console.log (mathrandom);
     // Task 1, Step 2: Use the JavaScript Math function to generate a random whole
     // number between 0 and 2. Be sure to save it to a variable.
+  return anArray[mathrandom];
+ 
+
         
     // Task 1, Step 3: Use this randomly generated number to pull a value from the
     // array (eg myArray[randomNum])
